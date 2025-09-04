@@ -27,8 +27,7 @@ $$
 \vdots \\
 \mathbf{y}_{n}^{\top}
 \end{array}
-\right)
-=
+\right)=
 \left(
 \begin{array}{cccc}
 y_{1}(1) & y_{1}(2) & \cdots & y_{1}(m) \\
