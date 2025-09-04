@@ -20,20 +20,24 @@ which collects all variables measured on sample $i$. Accordingly, the entire dat
 
 $$
 \boldsymbol{Y} =
-\begin{bmatrix}
-\mathbf{y}_{1}^{\top}\\
-\mathbf{y}_{2}^{\top}\\
-\vdots\\
+\left(
+\begin{array}{c}
+\mathbf{y}_{1}^{\top} \\
+\mathbf{y}_{2}^{\top} \\
+\vdots \\
 \mathbf{y}_{n}^{\top}
-\end{bmatrix}
+\end{array}
+\right)
 =
-\begin{bmatrix}
+\left(
+\begin{array}{cccc}
 y_{1}(1) & y_{1}(2) & \cdots & y_{1}(m) \\
 y_{2}(1) & y_{2}(2) & \cdots & y_{2}(m) \\
 \vdots   & \vdots   & \ddots & \vdots   \\
 y_{n}(1) & y_{n}(2) & \cdots & y_{n}(m)
-\end{bmatrix}
-\in \mathbb{R}^{n\times m},
+\end{array}
+\right)
+\in \mathbb{R}^{n \times m}
 $$
 
 where rows represent samples and columns represent variables. This unified formulation abstracts the specific nature of the observational dimension, providing a common framework for subsequent modeling. Within this framework, static (cross-sectional) data can be transformed into a quasi-dynamic form, whereas dynamic (time-series) data can be directly applied without such transformation.
