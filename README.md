@@ -3,7 +3,7 @@
 We organize the data in a matrix form. Let 
 
 $$
-\bm{Y} = (y_j(i)) \in \mathbb{R}^{n \times m}
+\boldsymbol{Y} = (y_j(i)) \in \mathbb{R}^{n \times m}
 $$
 
 be the observation matrix, where $y_j(i)$ denotes the value of variable/feature $j \, (j=1,\ldots,m)$ observed at sample/time $i \, (i=1,\dots,n)$. For each sample $i$, the observation vector is defined as
@@ -19,7 +19,7 @@ $$
 which collects all variables measured on sample $i$. Accordingly, the entire dataset can be expressed as
 
 $$
-\bm{Y} =
+\boldsymbol{Y} =
 \begin{bmatrix}
 \mathbf{y}_{1}^{\top}\\
 \mathbf{y}_{2}^{\top}\\
